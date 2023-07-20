@@ -1,4 +1,4 @@
-
+localStorage.clear();
 let navButton=document.getElementById('navButton');
 if(navButton){
 
