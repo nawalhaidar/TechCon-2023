@@ -91,6 +91,7 @@ if(tablee){
         let id=row.childNodes[9].textContent;
         displayID.push(id);
         })
+        console.log(displayID);
         localStorage.setItem('displayIDs',JSON.stringify(displayID));
     }
     updateIDarray();
