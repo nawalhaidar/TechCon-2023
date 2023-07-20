@@ -1,6 +1,5 @@
 let keys=['fname','lname', 'email','gender','phone', 'birthdate','univ', 'maj','status'];
 if(!localStorage.getItem('count')){
-    alert('count is not defined');
     localStorage.setItem('count',0);
 }
 
