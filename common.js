@@ -1,7 +1,4 @@
-if(!localStorage.getItem('loaded')){
-    localStorage.setItem('loaded','1');
-    localStorage.clear();
-}
+
 let navButton=document.getElementById('navButton');
 if(navButton){
 
