@@ -1,0 +1,49 @@
+#main-body{
+    display: block;
+}
+
+#headCont{
+    display: flex;
+}
+#main-body h3{
+    text-align: center;
+    flex-grow: 1;
+}
+
+#headCont p{
+    color:#ffa500;
+    text-decoration: underline;
+}
+#headCont p:hover{
+    cursor: pointer;
+}
+#card{
+    display: flex;
+    flex-direction: row;
+
+}
+#info{
+
+    padding: 10px;
+    flex-basis: 33.33%;
+    border-right: 2px solid #ffa500;
+}
+
+.infoElement{
+    display: flex;
+    margin: 5px;
+}
+.infoElement h4{
+    margin-right: 10px;
+}
+#motivText{
+
+    flex-basis: 66.67%;
+    text-align: center;
+    padding: 10px;
+}
+
+#motivText h4{
+    margin-bottom: 5px;
+}
+
