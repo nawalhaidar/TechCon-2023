@@ -1,6 +1,6 @@
 let keys=['fname','lname', 'email','gender','phone', 'birthdate','univ', 'maj','status'];
 if(!localStorage.getItem('count')){
-    localStorage.setItem('count','0');
+    localStorage.setItem('count',0);
 }
 
 if(localStorage.getItem('scroll')==='1'){
